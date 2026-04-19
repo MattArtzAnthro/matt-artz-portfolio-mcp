@@ -3,7 +3,6 @@
 A WordPress plugin that turns a personal knowledge graph into an interactive MCP App. Exposes a public Model Context Protocol endpoint at `/wp-json/mcp/matt-artz-portfolio`, pairs it with a bundled React UI rendered as a sandboxed iframe inside any MCP Apps-aware host (Claude Desktop, claude.ai, Claude Code).
 
 **Landing page:** [mattartz.me/portfolio](https://www.mattartz.me/portfolio)
-**Source of the React UI:** [github.com/mattartz/matt-artz-portfolio](https://github.com/mattartz/matt-artz-portfolio) (standalone repo)
 
 ## What it does
 
