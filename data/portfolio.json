@@ -1,0 +1,146 @@
+[
+  {
+    "id": "azimuth-labs",
+    "type": "role",
+    "title": "Founder, Azimuth Labs",
+    "organization": "Azimuth Labs",
+    "dateStart": "2020-01",
+    "dateEnd": null,
+    "summary": "Applied anthropology and AI product consultancy. Work centers on bringing ethnographic method to the design, evaluation, and governance of AI systems.",
+    "themes": ["AI", "Applied Anthropology", "Product"],
+    "technologies": ["Python", "Claude API", "MCP"],
+    "artifacts": [
+      { "label": "mattartz.me", "url": "https://www.mattartz.me/" }
+    ],
+    "featured": true
+  },
+  {
+    "id": "anthropology-and-ai-book",
+    "type": "publication",
+    "title": "Anthropology and AI (edited volume)",
+    "organization": "Routledge",
+    "dateStart": "2025-09",
+    "summary": "An edited collection gathering anthropological and social scientific perspectives on AI, its design, and its effects.",
+    "themes": ["AI", "Applied Anthropology"],
+    "artifacts": [
+      { "label": "Routledge catalog page", "url": "https://www.routledge.com/" }
+    ],
+    "featured": true
+  },
+  {
+    "id": "kgh-mcp-server",
+    "type": "project",
+    "title": "Public HTTP MCP server for a personal knowledge graph",
+    "organization": "Knowledge Graph Hub (plugin)",
+    "dateStart": "2026-04",
+    "dateEnd": null,
+    "summary": "An anonymous-access Model Context Protocol server exposing a 563-node Schema.org knowledge graph of my research, teaching, and projects. Conforms to MCP 2025-06-18 Streamable HTTP, advertised via OpenAPI, agents.json, and an A2A agent-card.",
+    "themes": ["AI", "Semantic Web", "Open Source"],
+    "technologies": ["PHP", "WordPress", "MCP", "JSON-LD", "RDF"],
+    "artifacts": [
+      { "label": "MCP endpoint", "url": "https://www.mattartz.me/wp-json/mcp/mattartz-kg" },
+      { "label": ".well-known/mcp.json", "url": "https://www.mattartz.me/.well-known/mcp.json" }
+    ],
+    "approach": "Treat a personal site as a knowledge object: graph-first, then compile renderings (JSON-LD, llms.txt, RDF Turtle, MCP) off the same data. Every agent surface is derived, not hand-authored.",
+    "reflectiveNote": "I underestimated how long the claude.ai browser-side CORS handshake would take to get right. Session headers needed explicit exposure; the GET SSE listener needed a 200 empty stream handler. The mcp-adapter plugin gave me most of the transport for free but its stubs required careful, small patches.",
+    "featured": true
+  },
+  {
+    "id": "ai-anthro-toolkit",
+    "type": "project",
+    "title": "AI Anthropology Toolkit",
+    "organization": "Azimuth Labs",
+    "dateStart": "2025-06",
+    "dateEnd": null,
+    "summary": "Open-source Jupyter notebooks that let ethnographers apply modern NLP and ML to qualitative fieldwork data. Covers entity recognition, topic modeling, and document clustering, with Colab-first packaging.",
+    "themes": ["AI", "Applied Anthropology", "Open Source"],
+    "technologies": ["Python", "GLiNER", "BERTopic", "Colab"],
+    "artifacts": [
+      { "label": "GitHub", "url": "https://github.com/mattartz/AI-Anthropology-Toolkit" }
+    ]
+  },
+  {
+    "id": "sfaa-tig-chair",
+    "type": "service",
+    "title": "Chair, AI and Anthropology Topical Interest Group",
+    "organization": "Society for Applied Anthropology",
+    "dateStart": "2025-03",
+    "dateEnd": null,
+    "summary": "Founding chair of the SfAA AI and Anthropology TIG. Built the charter, brand guide, editorial calendar, and report templates. Grew the group to 50+ members in its first year.",
+    "themes": ["AI", "Applied Anthropology", "Community"],
+    "featured": true
+  },
+  {
+    "id": "sfaa-2026-workshop",
+    "type": "teaching",
+    "title": "Advanced AI for Applied Anthropologists (workshop)",
+    "organization": "Society for Applied Anthropology, annual meeting",
+    "dateStart": "2026-03",
+    "summary": "Full-day NSF-funded workshop co-facilitated with Bryce Macher. Walks practitioners through prompt design, eval frameworks, and tool selection grounded in applied research questions.",
+    "themes": ["AI", "Applied Anthropology", "Teaching"],
+    "collaborators": ["Bryce Macher"]
+  },
+  {
+    "id": "jba-special-edition",
+    "type": "publication",
+    "title": "Journal of Business Anthropology, AI special edition (co-editor)",
+    "organization": "Journal of Business Anthropology",
+    "dateStart": "2025-10",
+    "summary": "Co-editing a special edition on AI and business anthropology with Adam Gamwell. Focus is on how anthropological methods inform real-world AI product and organizational decisions.",
+    "themes": ["AI", "Applied Anthropology", "Publishing"],
+    "collaborators": ["Adam Gamwell"]
+  },
+  {
+    "id": "ho-special-edition",
+    "type": "publication",
+    "title": "Human Organization, AI special edition (co-editor)",
+    "organization": "Human Organization / Society for Applied Anthropology",
+    "dateStart": "2025-11",
+    "summary": "Co-editing an AI special edition with Lora Koycheva under lead editor Lenore Manderson.",
+    "themes": ["AI", "Applied Anthropology", "Publishing"],
+    "collaborators": ["Lora Koycheva", "Lenore Manderson"]
+  },
+  {
+    "id": "anthro-to-ux-podcast",
+    "type": "podcast",
+    "title": "Anthro to UX (podcast host)",
+    "organization": "Independent",
+    "dateStart": "2019-01",
+    "dateEnd": null,
+    "summary": "Long-running interview podcast on careers at the intersection of anthropology and user experience. Guests include practitioners, hiring managers, and scholars.",
+    "themes": ["UX", "Applied Anthropology", "Public Scholarship"],
+    "artifacts": [
+      { "label": "Podcast page", "url": "https://www.mattartz.me/podcasts/" }
+    ]
+  },
+  {
+    "id": "anthropology-in-business-podcast",
+    "type": "podcast",
+    "title": "Anthropology in Business (podcast host)",
+    "organization": "Independent",
+    "dateStart": "2020-01",
+    "dateEnd": null,
+    "summary": "Interview podcast on how anthropologists work inside companies, from research to strategy to product.",
+    "themes": ["Applied Anthropology", "Business", "Public Scholarship"]
+  },
+  {
+    "id": "fordham-teaching",
+    "type": "teaching",
+    "title": "Cross-Cultural Consumer Insights, Fordham MKBU 3459",
+    "organization": "Fordham University",
+    "dateStart": "2025-09",
+    "summary": "Teaching support and curriculum contribution for a cross-cultural consumer insights course. Designed interview guide feedback protocol and best practices document for five student groups.",
+    "themes": ["Teaching", "Consumer Insight", "Applied Anthropology"]
+  },
+  {
+    "id": "early-ux-research",
+    "type": "role",
+    "title": "UX and Design Research, early career",
+    "organization": "Various",
+    "dateStart": "2012-01",
+    "dateEnd": "2019-12",
+    "summary": "Multiple in-house and consulting roles in UX research, design anthropology, and consumer insight. Groundwork for later applied-AI product work: the craft of fielding, coding, and translating qualitative evidence into decisions.",
+    "themes": ["UX", "Consumer Insight", "Design Anthropology"],
+    "reflectiveNote": "The career shape only made sense in retrospect. At the time it felt like drift between method-heavy and product-heavy roles. Now it reads as deliberate: each role added one capability that the AI product work required."
+  }
+]
